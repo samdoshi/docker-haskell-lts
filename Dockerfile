@@ -1,8 +1,8 @@
 FROM samdoshi/haskell-stack:latest
 MAINTAINER Sam Doshi <sam@metal-fish.co.uk>
 
-ENV GHC_VERSION 7.8.4
-ENV LTS_VERSION 2.22
+ENV GHC_VERSION 7.10.2
+ENV LTS_VERSION 3.2
 
 ENV PATH $PATH:/root/.stack/programs/x86_64-linux/ghc-$GHC_VERSION/bin
 
@@ -24,6 +24,7 @@ RUN mkdir -p /root/.stack/global && \
                   blaze-html \
                   cereal \
                   conduit-extra \
+                  diagrams \
                   lens \
                   matrix \
                   parsec \
