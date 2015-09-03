@@ -39,5 +39,5 @@ RUN mkdir -p /root/.stack/global && \
     rm /root/.stack/programs/x86_64-linux/ghc-$GHC_VERSION.tar.xz && \
     rm -r /root/.stack/indices
 
-CMD stack ghci
+CMD stack exec ghci
 
