@@ -2,7 +2,7 @@ FROM samdoshi/haskell-stack:latest
 MAINTAINER Sam Doshi <sam@metal-fish.co.uk>
 
 ENV GHC_VERSION 7.10.2
-ENV LTS_VERSION 3.2
+ENV LTS_VERSION 3.4
 
 ENV PATH $PATH:/root/.stack/programs/x86_64-linux/ghc-$GHC_VERSION/bin
 
